@@ -2,8 +2,6 @@ import streamlit as st
 import requests
 import json
 from bs4 import BeautifulSoup
-from requests_html import HTMLSession
-
 st.title("New Turkish Music")
 
 with st.form('find song'):
